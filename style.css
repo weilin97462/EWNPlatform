@@ -1,0 +1,23 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+#banner{
+    display: flex;
+    min-width: 450px;
+    padding:0px;
+    margin: 0;
+    align-items: center;
+    overflow: hidden;
+    /* background-color: #80d0ff; */
+    background-color: #000000;
+}
+
+#banner-text{
+    height: 60;
+    padding:10px;
+    display: inline;
+    color:#ffffff
+}
