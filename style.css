@@ -7,7 +7,7 @@ body {
 }
 
 #banner{
-    width: 1000px;
+    min-width: 100%;
     overflow: hidden;
     background-color: #000000;
 }
