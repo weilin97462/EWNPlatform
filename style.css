@@ -1,5 +1,5 @@
 body {
-    background-color: #ffffff;
+    background-color: #5a5a5a;
     font-family: Arial, sans-serif;
     margin: 0;
     align-items: center;
@@ -13,7 +13,7 @@ body {
 #banner_button{
     display: flex;
     padding:0px;
-    margin: 0;
+    margin: 0px;
     align-items: center;
     justify-content: center;
     text-decoration: none;
@@ -21,11 +21,35 @@ body {
 
 #banner_dice{
     margin-left: 10px;
+    padding: 0px;
 }
 
 #banner-text{
-    height: 60;
+    height: 32px;
     padding:10px;
+    margin-right: 60px;
     display: inline;
     color:#ffffff;
+}
+
+#button_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Game_button{
+    display: block;
+    width: 500px;
+    color: #000000;
+    background-color: #ffffff;
+    border: 4px solid #000000;
+    border-radius: 12px;
+    padding:15px;
+    margin: 20px;
+    margin-top: 0px;
+    text-decoration: none;
+}
+.Game_button:hover {
+    background-color: #45a049;
+    color: #ffffff;
 }

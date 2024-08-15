@@ -1,1 +1,1 @@
-# PlayEWN
+# EWN Platform
